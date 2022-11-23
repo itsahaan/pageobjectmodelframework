@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.pom.scripts.HomePageScript">
+        <methods>
+          <include name="initializeObjects"/>
+          <include name="clickSignUpButton"/>
+          <include name="setup"/>
+          <include name="quitDriver"/>
+          <include name="getMethodName"/>
+          <include name="setTestResult"/>
+        </methods>
+      </class> <!-- com.pom.scripts.HomePageScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
